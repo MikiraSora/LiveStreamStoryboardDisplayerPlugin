@@ -151,6 +151,8 @@ namespace LiveStreamStoryboardDisplayerPlugin.Danmaku
 
         private bool RequestSwitch()
         {
+
+
             if (queue.Count==0)
             {
                 var dirs = Directory.EnumerateDirectories(Setting.Instance.StoryboardFolders);
